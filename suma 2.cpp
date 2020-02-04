@@ -2,11 +2,11 @@
 #include<conio.h>
 main()
 {
-	int sum,A,B,C;
+	float sum,A,B,C;
 	printf("ingresa 2 numeros enteros");
-	scanf("%d %d",&A,&B);
+	scanf("%f %f",&A,&B);
 	sum=A+B;
-	printf("suma= %d", sum);
+	printf("suma= %.2f", sum);
 	getche();
 	
 }
